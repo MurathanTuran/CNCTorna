@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/main"
+            android:icon="@drawable/home"
+            android:title="@string/main_page" />
+
+        <item
+            android:id="@+id/institutional"
+            android:icon="@drawable/man"
+            android:title="@string/institutional">
+
+            <menu>
+
+                <group
+                    android:checkableBehavior="single">
+
+                    <item
+                        android:id="@+id/about_us"
+                        android:icon="@drawable/man"
+                        android:title="@string/about_us" />
+
+                    <item
+                        android:id="@+id/our_machine_park"
+                        android:icon="@drawable/black_manufacturing"
+                        android:title="@string/our_machine_park" />
+
+                    <item
+                        android:id="@+id/solution_partners"
+                        android:icon="@drawable/black_worker"
+                        android:title="@string/solution_partners" />
+
+                    <item
+                        android:id="@+id/frequently_asked_questions"
+                        android:icon="@drawable/black_question_mark"
+                        android:title="@string/frequently_asked_questions" />
+
+                </group>
+
+            </menu>
+
+        </item>
+
+        <item
+            android:id="@+id/our_services"
+            android:icon="@drawable/headline"
+            android:title="@string/our_services" />
+
+        <item
+            android:id="@+id/products"
+            android:icon="@drawable/bag"
+            android:title="@string/products">
+
+            <!--
+            <menu>
+
+                <group
+                    android:checkableBehavior="single">
+
+                    <item
+                        android:id="@+id/metal"
+                        android:title="@string/metal"/>
+
+                    <item
+                        android:id="@+id/plastic"
+                        android:title="@string/plastic" />
+
+                </group>
+
+            </menu>
+            -->
+
+        </item>
+
+        <item
+            android:id="@+id/communication"
+            android:icon="@drawable/mail"
+            android:title="@string/communication" />
+
+    </group>
+
+</menu>
